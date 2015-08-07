@@ -21,3 +21,6 @@ map s t<Space>google<CR>
 
 "バックスペースキーで戻る機能を無効にする
 map <BS> ""
+
+"Ctrl+aで「すべて選択」
+imap <C-a> <Insert><C-a><Insert>
